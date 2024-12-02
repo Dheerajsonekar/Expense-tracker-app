@@ -1,0 +1,19 @@
+{
+  "name": "expense-tracker-app",
+  "version": "1.0.0",
+  "description": "made by Dheeraj",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "dheeraj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5"
+  }
+}
